@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.vscode/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Output files from the bot
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+output/ # If you were to save generated QRs or PDFs locally
+
+# Folders for storing data and media
+Images/
+
+# Assets that might be generated or are local development specific
+# If your 'assets' folder contains only source files (like watermark.png), don't ignore it.
+# If it contains large generated files, you might ignore those specifically.
+# For now, assuming assets/watermark.png is a source file.
+
+# IDE-specific files (e.g., VS Code, PyCharm)
+.idea/ # PyCharm project files
+.vscode/ # VS Code workspace/settings (optional, if you have user-specific settings you don't want to share)
+
+# Docker related files (if you use Docker in the future)
+.dockerignore
+Dockerfile.prod
+.env.production
+.env.development
+
+# Build artifacts
+dist/
+build/
+*.egg
